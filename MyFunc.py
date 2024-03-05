@@ -1,6 +1,6 @@
 import tensorflow as tf
 
-
+#添加注释
 def myconv(input_tensor, shape, strides=[1, 1, 1, 1], padding='SAME'):
 
     conv_weights = tf.compat.v1.get_variable("weight", shape, initializer=tf.contrib.layers.variance_scaling_initializer(dtype=tf.compat.v1.float32))
