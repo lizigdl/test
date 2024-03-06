@@ -1,6 +1,9 @@
 import tensorflow as tf
 from MyFunc import myfc
 import os
+print('Hello')
+
+
 
 """
  featuremap = 5, 5, 256
